@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+}
+.wrap .header {
+  height: 1.17333333rem;
+  background: #C4493C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.38666667rem;
+}
+.wrap .header img {
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+.wrap .header input {
+  width: 7.14666667rem;
+  height: 0.82666667rem;
+}
+.wrap .bodyer .nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.wrap .bodyer .nav ul li {
+  font-size: 0.37333333rem;
+  height: 1.05333333rem;
+  line-height: 1.05333333rem;
+}
+.wrap .bodyer .swiper-container {
+  width: 100%;
+  height: 3.89333333rem;
+}
+.wrap .bodyer .swiper-container .swiper-wrapper {
+  width: 300%;
+  height: 3.89333333rem;
+}
+.wrap .bodyer .swiper-container .swiper-wrapper .swiper-slide {
+  width: 33.3%;
+  height: 3.89333333rem;
+}
+.wrap .bodyer .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 3.89333333rem;
+}
+.wrap .bodyer .smnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.58666667rem;
+  margin-top: 0.45333333rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.49333333rem;
+}
+.wrap .bodyer .smnav dl dt img {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+}
+.wrap .bodyer .smnav dl dd {
+  font-size: 0.30666667rem;
+}
+.wrap .bodyer p {
+  font-size: 0.42666667rem;
+  padding-left: 0.28rem;
+  padding-top: 0.53333333rem;
+}
+.wrap .bodyer .tuijian dl {
+  float: left;
+  width: 3.28rem;
+  height: 4.46666667rem;
+  margin-left: 0.05333333rem;
+  margin-top: 0.4rem;
+}
+.wrap .bodyer .tuijian dl dt img {
+  width: 3.28rem;
+  height: 3.28rem;
+}
+.wrap .bodyer .tuijian dl dd {
+  font-size: 0.33333333rem;
+  text-align: center;
+  padding: 0 0.06666667rem;
+}
